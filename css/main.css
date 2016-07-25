@@ -1,3 +1,39 @@
+/*====MEDIA QUERIES====*/
+
+@media (max-width: 800px) {
+	.searchbox {
+		width: 80%;
+	}
+}
+@media (max-width: 425px) {
+	.left {
+		margin: 0;
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
+	.right {
+		margin: 0;
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
+	.fa.fa-bell-o {
+		display: none;
+	}
+	.fa.fa-th {
+		display: none;
+	}
+	.sharebutton {
+		display: none;
+	}
+}
+
+@media (max-width: 800px) {
+	.farrel {
+		display: none;
+	}
+}
 /*====Site wide styles====*/
 *{
 	color: #000;
